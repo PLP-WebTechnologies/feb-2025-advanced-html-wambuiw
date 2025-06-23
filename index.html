@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced HTML5 Elements and Forms</title>
+  
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Advanced HTML5 Practice</h1>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>Ordered List (Roman Numerals)</h2>
+    <ol type="I">
+      <li>HTML Basics</li>
+      <li>CSS Styling</li>
+      <li>JavaScript Introduction</li>
+      <li>Responsive Design</li>
+      <li>Forms and Validation</li>
+    </ol>
+  </section>
+
+  <!-- External Image from Pexels -->
+  <section>
+    <h2>Sample Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg" alt="Scenic Nature" width="500" />
+  </section>
+
+  <!-- Contact Table -->
+  <section>
+    <h2>Contact List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Alice Johnson</td>
+          <td>Nairobi, Kenya</td>
+          <td>+254 712345678</td>
+          <td>alice@example.com</td>
+        </tr>
+        <tr>
+          <td>Brian Kimani</td>
+          <td>Mombasa, Kenya</td>
+          <td>+254 712345679</td>
+          <td>brian@example.com</td>
+        </tr>
+        <tr>
+          <td>Clara Wanjiku</td>
+          <td>Kisumu, Kenya</td>
+          <td>+254 712345680</td>
+          <td>clara@example.com</td>
+        </tr>
+        <tr>
+          <td>Daniel Mwangi</td>
+          <td>Nakuru, Kenya</td>
+          <td>+254 712345681</td>
+          <td>daniel@example.com</td>
+        </tr>
+        <tr>
+          <td>Eva Achieng</td>
+          <td>Eldoret, Kenya</td>
+          <td>+254 712345682</td>
+          <td>eva@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+      <!-- Name Field -->
+      <div>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+      </div>
+
+      <!-- Email Field -->
+      <div>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+      </div>
+
+      <!-- Password Field -->
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter a strong password" minlength="6" required />
+      </div>
+
+      <!-- Date Field -->
+      <div>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required />
+      </div>
+
+      <!-- Dropdown -->
+      <div>
+        <label for="country">Select Country:</label>
+        <select id="country" name="country" required>
+          <option value="">--Choose your country--</option>
+          <option value="Kenya">Kenya</option>
+          <option value="Uganda">Uganda</option>
+          <option value="Tanzania">Tanzania</option>
+          <option value="Rwanda">Rwanda</option>
+        </select>
+      </div>
+
+      <!-- Radio Buttons -->
+      <div>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </div>
+
+      <!-- Checkboxes -->
+      <div>
+        <label>Interests:</label>
+        <input type="checkbox" id="coding" name="interests" value="Coding" />
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="travel" name="interests" value="Travel" />
+        <label for="travel">Travel</label>
+        <input type="checkbox" id="reading" name="interests" value="Reading" />
+        <label for="reading">Reading</label>
+      </div>
+
+      <!-- Submit Button -->
+      <div>
+        <input type="submit" value="Register" />
+      </div>
+    </form>
+  </section>
+
+  <!-- Multimedia Example -->
+  <section>
+    <h2>Multimedia Elements</h2>
+
+    <!-- Audio -->
+    <h3>Sample Audio</h3>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video -->
+    <h3>Sample Video</h3>
+    <video width="500" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+</body>
+</html>
